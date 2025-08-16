@@ -2,6 +2,9 @@
 
 This project implements a Condition Monitoring System designed for motor speed control and health monitoring. The system is built on Arduino Mega and ESP32, integrating multiple sensors to detect abnormal operating conditions and enabling real-time cloud monitoring. Includes cloud monitoring, safety measures, and a modified V-Model design approach for reliable motor health management.
 
+![20250424_190522](https://github.com/user-attachments/assets/11a2524a-5385-4ae2-a06b-39c7f48680cb)
+
+
 **Project Overview**
   * Motor Speed Control: Achieved using a PID controller, fine-tuned manually for stability.
   * Condition Monitoring: Incorporates sensors for vibration, temperature, current, and smoke detection.
@@ -27,6 +30,9 @@ This project implements a Condition Monitoring System designed for motor speed c
   * Temperature Sensor
   * Current Sensor
   * Smoke Sensor
+
+![Wiring Diagram](https://github.com/user-attachments/assets/1792e7a1-e79b-4e82-9799-d5b98956de7c)
+
 
 **Methodology**
   * Simulink auto-tuning & Ziegler-Nichols methods tested, but only manual PID tuning provided stable control.
